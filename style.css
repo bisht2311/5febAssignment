@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.bg{
+    height:100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+    background-size: cover;
+}
+header{
+    margin-top: 0px;
+    padding: 10px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 70px;
+    width:200px;
+}
+.vl{
+
+    border-left:1px solid white;
+    margin-left: 35px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    column-gap:30px;
+    color:white;
+}
+.list{
+    margin-top: 20px;
+}
+.hleft{
+    display: flex;
+    justify-content: space-between;
+}
+.hright{
+    margin-top: 15px;
+}
+section{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:white;
+    font-weight: 2000px;
+    font-size:60px;
+    text-align: center;
+}
+p{
+    color:white;
+    text-align: center;
+    font-weight: 200px;
+}
+button{
+    background-color: blue;
+    color:white;
+    font-weight: 900;
+    padding: 15px;
+    border:0px;
+}
+.button{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
